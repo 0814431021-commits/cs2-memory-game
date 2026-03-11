@@ -10,18 +10,20 @@ h1 {
 p {
     text-align: center;
 }
+
 .card {
-    color: pink;
+    color: black;
     background-color: black;
     width:150px;
     height:150px;
     text-align: center;
     align-content: center;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 20px;
     user-select: none;
     cursor: crosshair;
     transition: 300ms;
+    
 }
 .card:hover {
     transform: scale(1.1);
